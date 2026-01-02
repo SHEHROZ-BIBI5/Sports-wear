@@ -1,16 +1,95 @@
-# React + Vite
+ # 🏋️‍♀️ Sports Wear – Activewear Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Activewear / Sports Wear web application** built with **React + Vite**, styled using **Tailwind CSS**.  
+This project includes an interactive **flipbook-style catalog** and **PDF export functionality**, designed to showcase sportswear collections in a clean and professional way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ⚛️ Built with **React + Vite** for fast performance
+- 🎨 Styled using **Tailwind CSS**
+- 📖 **Flipbook-style Activewear catalog**
+- 📄 **Export catalog as PDF**
+- 🔥 Fully responsive design
+- ⚡ Hot Module Replacement (HMR)
+- 🧹 ESLint configured for clean code
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React
+- **Bundler:** Vite
+- **Styling:** Tailwind CSS
+- **Linting:** ESLint
+- **Package Manager:** npm
+
+---
+
+## 📂 Project Structure
+
+```bash
+Sports-wear/
+│
+├── public/               # Static assets
+├── src/                  # Application source code
+│   ├── components/       # Reusable components
+│   ├── pages/            # App pages (Activewear, etc.)
+│   ├── assets/           # Images & media
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
+└── README.md
+
+▶️ Getting Started
+
+1️⃣ Clone the Repository
+git clone https://github.com/SHEHROZ-BIBI5/Sports-wear.git
+
+2️⃣ Navigate to Project Folder
+cd Sports-wear
+
+3️⃣ Install Dependencies
+npm install
+
+4️⃣ Run Development Server
+npm run dev
+
+
+Now open 👉 http://localhost:5173
+ in your browser.
+
+📦 Build for Production
+npm run build
+
+🧪 Preview Production Build
+npm run preview
+
+📸 Screens & Use Case
+
+This project is ideal for:
+
+Sportswear brands
+
+Activewear catalogs
+
+Fashion lookbooks
+
+Digital product brochures
+
+👩‍💻 Author
+
+Shehroz Bibi
+Frontend Developer (React.js)
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/shehroz-bibi-391933378
+
+📜 License
+
+This project is open-source and available for learning and portfolio use.
